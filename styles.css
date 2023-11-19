@@ -39,6 +39,27 @@ button {
     cursor: pointer;
 }
 
+.translate_button {
+    border-radius: 20px;
+    background-color: #ffddd3;
+    border-color: BLACK;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: block; /* makes each button on it's own line */
+    height: 60px;
+    width: 300px;
+    margin: 20px auto; /* adds spacing to the button and centers it */
+    text-decoration: none; /* removes underline from hyperlink */
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.translate_button:hover {
+    background-color: #F3BFB3;
+}
+
 .asl-output {
     margin-top: 20px;
     font-size: 18px;
