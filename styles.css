@@ -73,7 +73,7 @@ button {
 }
 
 .translate-button:hover {
-    background-color: #F3BFB3;
+    background-color: #7674ff;
 }
 
 .clear-button {
@@ -102,4 +102,24 @@ footer * {
 .asl-output {
     margin-top: 20px;
     font-size: 18px;
+}
+
+.about-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+    color: #333;
+}
+
+.about-text {
+    color: #666;
+    line-height: 1.6;
+    font-size: large;
 }
