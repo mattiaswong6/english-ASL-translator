@@ -1,31 +1,31 @@
 // Simple ASL dictionary (replace with a more comprehensive one)
 const aslDictionary = {
-   'a': "images/a.png",
-   'b': "images/b.png",
-   'c': "images/c.png",
-   'd': "images/d.png",
-   'e': "images/e.png",
-   'f': "images/f.png",
-   'g': "images/g.png",
-   'h': "images/h.png",
-   'i': "images/i.png",
-   'j': "images/j.png",
-   'k': "images/k.png",
-   'l': "images/l.png",
-   'm': "images/m.png",
-   'n': "images/n.png",
-   'o': "images/o.png",
-   'p': "images/p.png",
-   'q': "images/q.png",
-   'r': "images/r.png",
-   's': "images/s.png",
-   't': "images/t.png",
-   'u': "images/u.png",
-   'v': "images/v.png",
-   'w': "images/w.png",
-   'x': "images/x.png",
-   'y': "images/y.png",
-   'z': "images/z.png",
+   'a': "vector images/a.svg",
+   'b': "vector images/b.svg",
+   'c': "vector images/c.svg",
+   'd': "vector images/d.svg",
+   'e': "vector images/e.svg",
+   'f': "vector images/f.svg",
+   'g': "vector images/g.svg",
+   'h': "vector images/h.svg",
+   'i': "vector images/i.svg",
+   'j': "vector images/j.svg",
+   'k': "vector images/k.svg",
+   'l': "vector images/l.svg",
+   'm': "vector images/m.svg",
+   'n': "vector images/n.svg",
+   'o': "vector images/o.svg",
+   'p': "vector images/p.svg",
+   'q': "vector images/q.svg",
+   'r': "vector images/r.svg",
+   's': "vector images/s.svg",
+   't': "vector images/t.svg",
+   'u': "vector images/u.svg",
+   'v': "vector images/v.svg",
+   'w': "vector images/w.svg",
+   'x': "vector images/x.svg",
+   'y': "vector images/y.svg",
+   'z': "vector images/z.svg",
    // Add more ASL translations as needed
 };
 translateButton = document.querySelector(".translate-button");
@@ -108,8 +108,24 @@ function characterToImageLink(letter) {
    imageLink = aslDictionary[letter.toLowerCase()];
    return imageLink;
 };
-// function to convert image link to img html
-//  function outputImage(image) {
-//     const div = document.createElement("div");
-//     div.classList
-//  }
+
+
+const clearButton = document.querySelector(".clear-button");
+clearButton.addEventListener("click", clearAll);
+
+function clearAll() {
+   clearText();
+   clearImages();
+}
+
+function clearText() {
+   const textArea = document.querySelector("#inputText");
+   textArea.value = "";
+}
+
+function clearImages() {
+   const card = document.querySelector("#outputASL");
+   while (card.firstChild) {
+      card.removeChild(card.firstChild);
+   }
+}
