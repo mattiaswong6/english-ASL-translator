@@ -55,7 +55,7 @@ button {
     display: block; /* makes each button on it's own line */
 }
 
-.translate_button {
+.translate-button {
     border-radius: 20px;
     background-color: #ffddd3;
     border-color: BLACK;
@@ -71,11 +71,11 @@ button {
     transition: 0.3s;
 }
 
-.translate_button:hover {
+.translate-button:hover {
     background-color: #F3BFB3;
 }
 
-.clear_button {
+.clear-button {
     margin-left: 20px;
 }
 
@@ -101,16 +101,4 @@ footer * {
 .asl-output {
     margin-top: 20px;
     font-size: 18px;
-}
-
-.asl-diagram {
-    margin-top: 20px;
-}
-
-.asl-diagram p {
-    font-weight: bold;
-}
-
-.asl-diagram div {
-    font-size: 36px;
 }

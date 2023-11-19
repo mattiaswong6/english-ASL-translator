@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASL Translator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cardstyle.css">
 </head>
 <body>
 
@@ -13,12 +14,10 @@
         <div class="translator-container">
             <textarea id="inputText" placeholder="Type your English text here..."></textarea>
             <div class="buttons">
-                <button class="translate_button" onclick="translate()">Translate to ASL</button>
-                <button class="clear_button" onclick="clear()">Clear</button>
+                <button class="translate-button">Translate to ASL</button>
+                <button class="clear-button">Clear</button>
             </div>
-            <div id="outputASL" class="asl-output"></div>
-            <div id="aslDiagram" class="asl-diagram"></div>
-            
+            <div id="outputASL" class="asl-output"></div>        
         </div>
 
         <footer>
@@ -34,6 +33,5 @@
 
 
     <script src="translator.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 </body>
 </html>
