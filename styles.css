@@ -4,13 +4,14 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #fdf8e2;
 }
 
 .name {
     text-align: center;
+    margin-bottom: 100px
 }
 
 .translator-container {
@@ -18,14 +19,19 @@ body {
 }
 
 textarea {
-    width: 80%;
-    height: 100px;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    border-width:3px;
     margin-bottom: 10px;
     padding: 10px;
     font-size: 16px;
 }
 
 button {
+    border-radius: 20px;
+    background-color: #ffddd3;
+    border-color: BLACK;
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
