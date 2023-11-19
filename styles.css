@@ -134,3 +134,7 @@ footer * {
     line-height: 1.6;
     font-size: large;
 }
+
+html {
+    scroll-behavior: smooth;
+}
