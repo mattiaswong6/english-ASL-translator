@@ -33,11 +33,17 @@ translateButton.addEventListener("click", translate);
 function translate() {
 
    clearImages();
-   const inputText = document.getElementById('inputText').value.toLowerCase();   
-   const words = inputText.split(" ");
-   words.forEach(wordToImage);
+   const inputText = document.getElementById('inputText').value; 
+   let regex = /^[a-zA-Z\\s]+$/;
+   if (!regex.test(inputText)) {
+      alert("Wrong input, please enter only letters!");
+      return;
+   }
 
-   scrollDown()
+   const temp = inputText.toLowerCase();
+   
+   const words = temp.split(" ");
+   words.forEach(wordToImage);
 }
 
 
