@@ -39,6 +39,16 @@ button {
     cursor: pointer;
 }
 
+.translate_button {
+    border-radius: 20px;
+    background-color: #ffddd3;
+    border-color: BLACK;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
 .asl-output {
     margin-top: 20px;
     font-size: 18px;
