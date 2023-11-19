@@ -77,7 +77,10 @@ const aslDictionary = {
  
  console.log(aslDictionary["a"]);
  
- 
+ // function for clearing text from button
+ function clear() {
+   document.getElementById("inputText").value = "";
+ }
  
  
  
