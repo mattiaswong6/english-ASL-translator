@@ -9,6 +9,10 @@ body {
     background-color: #f4f4f4;
 }
 
+.name {
+    text-align: center;
+}
+
 .translator-container {
     text-align: center;
 }

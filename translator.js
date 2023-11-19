@@ -1,7 +1,7 @@
 // Simple ASL dictionary (replace with a more comprehensive one)
 const aslDictionary = {
-    'HELLO': '👋',
-    'GOOD MORNING': '☀️👋',
+    'A': '1',
+    'B': '2',
     'GOOD AFTERNOON': '🌞👋',
     'GOOD EVENING': '🌙👋',
     // Add more ASL translations as needed
