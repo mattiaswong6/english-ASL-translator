@@ -30,13 +30,19 @@ const aslDictionary = {
 };
 translateButton = document.querySelector(".translate-button");
 translateButton.addEventListener("click", translate);
-function translate() {
 
+function translate() {
    clearImages();
    const inputText = document.getElementById('inputText').value; 
-   let regex = /^[a-zA-Z\\s]+$/;
+   let regex = /^[a-zA-Z\s]+$/;
+
+   if (inputText.includes('\n')) {
+        alert("Invalid input, please enter only letters and spaces!");
+        return;
+   }
+
    if (!regex.test(inputText)) {
-      alert("Wrong input, please enter only letters!");
+      alert("Invalid input, please enter only letters and spaces!");
       return;
    }
 
@@ -47,7 +53,6 @@ function translate() {
 }
 
 
-scroll
 
 //
 
@@ -67,7 +72,7 @@ function wordToImage(word) {
 
 
    var images = linksToImages(arrayOfImageLinks);
-
+   if (images.size == 0) {return;}
 
    let card = document.createElement("div");
    card.classList.add("card-wrapper");
