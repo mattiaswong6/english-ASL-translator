@@ -33,14 +33,15 @@ translateButton.addEventListener("click", translate);
 function translate() {
 
    clearImages();
-   const inputText = document.getElementById('inputText').value.toLowerCase();
-
-
-   
+   const inputText = document.getElementById('inputText').value.toLowerCase();   
    const words = inputText.split(" ");
    words.forEach(wordToImage);
+
+   scrollDown()
 }
 
+
+scroll
 
 //
 
