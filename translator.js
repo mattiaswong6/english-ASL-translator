@@ -31,10 +31,12 @@ const aslDictionary = {
 translateButton = document.querySelector(".translate-button");
 translateButton.addEventListener("click", translate);
 function translate() {
+
+   clearImages();
    const inputText = document.getElementById('inputText').value.toLowerCase();
-   const outputASL = document.getElementById('outputASL');
 
 
+   
    const words = inputText.split(" ");
    words.forEach(wordToImage);
 }
@@ -58,7 +60,6 @@ function wordToImage(word) {
 
 
    var images = linksToImages(arrayOfImageLinks);
-   console.log(images);
 
 
    let card = document.createElement("div");
