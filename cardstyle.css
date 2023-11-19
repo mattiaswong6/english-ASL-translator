@@ -1,0 +1,13 @@
+.card-wrapper {
+    display: block;
+ 
+ 
+    border: 1px solid black;
+ }
+ 
+ 
+ .card-wrapper img {
+    height: auto;
+    width: 10rem;
+ }
+ 
