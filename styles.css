@@ -137,3 +137,8 @@ footer * {
 html {
     scroll-behavior: smooth;
 }
+
+.translate-button:hover, .clear-button:hover {
+    background-color: lightpink;
+    color: #333;
+}
