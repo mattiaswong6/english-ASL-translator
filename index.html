@@ -21,6 +21,16 @@
     <div class="app">
         <h2 class="name">App Name</h2>
         <div class="translator-container">
+            <div class="translate-toggle">
+                <div class="toggle-left">
+                    <input type="radio" name="button" value="weight" id="toggle-English-to-ASL" checked="checked" />
+                    <label class="toggle-labels" for="toggle-English-to-ASL">English to ASL</label>
+                </div>
+                <div class="toggle-right">
+                    <input type="radio" name="button" value="dimensions" id="toggle-ASL-to-English" />
+                    <label for="toggle-ASL-to-English">ASL to English</label>
+                </div>
+            </div>
             <textarea id="inputText" placeholder="Type your English text here..."></textarea>
             <div class="buttons">
                 <a href="#outputASL"><button class="translate-button">Translate to ASL</button></a>
