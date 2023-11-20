@@ -86,3 +86,8 @@ body {
    font-family: 'Courier New', monospace;
    letter-spacing: 5px;
 }
+
+
+.asl-output {
+   background-color: var(--blue);
+}
