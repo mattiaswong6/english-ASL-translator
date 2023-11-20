@@ -141,13 +141,12 @@ html {
 .translate-button:hover, .clear-button:hover {
     background-color: lightpink;
     color: #333;
-    display: flex;
     overflow: hidden;
 }
 
 /* Add a black background color to the top navigation */
-.translate-toggle {
-}
+/* .translate-toggle {
+} */
 
 .toggle-container {
     background-color: #333;
