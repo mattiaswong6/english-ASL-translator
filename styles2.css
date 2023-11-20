@@ -191,3 +191,8 @@ html {
 	height: 375px;
 	background-color: #666;
 }
+
+.img-decor {
+    width: 100px;
+    height: 100px;
+}

@@ -156,15 +156,15 @@ html {
 }
 
   
-  /* Style the links inside the navigation bar */
-  .translate-toggle a {
+/* Style the links inside the navigation bar */
+.translate-toggle a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
   /* Change the color of links on hover */
   .translate-toggle a:hover {
@@ -177,3 +177,14 @@ html {
     background-color: #04AA6D;
     color: white;
   }
+
+  .img-decor {
+    width: 200px;
+    height: 400px;
+    margin: 0 90px;
+}
+
+.urmom {
+    display: flex;
+    justify-content: space-evenly;
+}
