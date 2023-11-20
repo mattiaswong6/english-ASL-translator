@@ -55,7 +55,7 @@ body {
 }
 
 .about-container-wrapper {
-   width: 90vw;
+   width: 80vw;
    padding: 0;
 }
 
@@ -63,6 +63,26 @@ body {
    background-color: white;
 }
 
-.card-wrapper {
-   width: ;
+.about-container {
+   display: flex;
+   justify-content: center;
+}
+
+.about-header {
+   font-family: DSC Specter,Helvetica,Arial,sans-serif;
+   padding: 20px 0;
+   font-weight: bold;
+   font-size: 40px;
+}
+
+.about-text {
+   text-align: justify;
+   font-size: 20px;
+}
+
+.make-bigger {
+   font-size: 40px;
+   font-weight: bolder;
+   font-family: 'Courier New', monospace;
+   letter-spacing: 5px;
 }

@@ -86,6 +86,7 @@ function wordToImage(word) {
    let title = document.createElement("p");
    title.innerHTML = word;
    wordBox.classList.add("translate-word");
+   wordBox.classList.add("make-bigger");
    wordBox.appendChild(title);
 
 
