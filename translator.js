@@ -76,6 +76,7 @@ function wordToImage(word) {
 
    let card = document.createElement("div");
    card.classList.add("card-wrapper");
+   card.classList.add("make-white");
 
 
    var wordBox = document.createElement("div");
