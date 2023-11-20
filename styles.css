@@ -184,3 +184,7 @@ html {
     margin: 0 90px;
 }
 
+.something {
+    display: flex;
+    justify-content: space-evenly;
+}
