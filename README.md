@@ -1,6 +1,8 @@
 # Welcome to SignSpeak!
 ## An interactive English to American Sign Language (ASL) translator.
 
+### Click below for video demo!
+
 [![SignSpeak Demo](http://img.youtube.com/vi/GQubN0S3-zI/0.jpg)](http://www.youtube.com/watch?v=GQubN0S3-zI "SignSpeak Demo")
 
 
